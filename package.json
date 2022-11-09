@@ -1,0 +1,24 @@
+{
+  "name": "playwright-bdd--zeissid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
+    "report": "node reporter.js"
+  },
+  "keywords": [],
+  "author": "Manova Chandramohan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "playwright": "^1.27.1",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.27.1"
+  }
+}

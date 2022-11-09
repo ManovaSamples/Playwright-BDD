@@ -1,0 +1,53 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-saucelab-123;invite-user-to-client-application",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Invite user to client application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\demo-login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1791000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-saucelab-123",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to saucelab 123",
+    "tags": [],
+    "uri": "features\\demo-login.feature"
+  }
+]
